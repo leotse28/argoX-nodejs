@@ -7,10 +7,10 @@ const path = require('path');
 
 // ===== 配置(已写入,可被同名环境变量覆盖) =====
 const CFG = {
-  token:  process.env.ARGO_TOKEN || 'eyJhIjoiYWExZDM1MDYzNGQ1MDA2OGJkMGZkZDIxNjA3MGZhZTUiLCJ0IjoiNjZlMGI4NzktMGE1Zi00MjI5LWE3YzEtMTFkNDc1ZWFlNGQ4IiwicyI6IllqZGhaalF6WkdZdE9EVTBZUzAwTkRnMExUaGpPRGd0TkdFNFpqRTNNVEkxWmpBNSJ9',
-  uuid:   process.env.UUID || '62493c57-0d1d-4edf-9236-83a9c9c29ed3',
-  domain: process.env.ARGO_DOMAIN || 'hostship.globalleo.dpdns.org',
-  port:   Number(process.env.PORT) || 30509,
+  token:  process.env.ARGO_TOKEN || '********5LWE3YzEtMTFkNDc1ZWFlNGQ4IiwicyI6IllqZGhaalF6WkdZdE9EVTBZUzAwTkRnMExUaGpPRGd0TkdFNFpqRTNNVEkxWmpBNSJ9',
+  uuid:   process.env.UUID || '***********f-9236-83a9c9c29ed3',
+  domain: process.env.ARGO_DOMAIN || '**********rg',
+  port:   Number(process.env.PORT) || 3***9,
   host:   process.env.HOST || '0.0.0.0',
   cdn:    process.env.CDN || 'www.visa.com.sg',
   name:   process.env.NODE_NAME || 'ArgoX-Node',
